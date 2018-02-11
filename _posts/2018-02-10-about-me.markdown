@@ -8,12 +8,10 @@ img:  # Add image post (optional)
 ![usc]({{site.baseurl}}/assets/img/usc.png)
 ![mcgill]({{site.baseurl}}/assets/img/mcgill.png)
 
-<img style="float: left;" src="{{site.baseurl}}/assets/img/usc.png"> <div class="col-md-6"> 
-      <p style="display:inline-block; vertical-align:middle;">
+<img style="float: left;" src="{{site.baseurl}}/assets/img/usc.png"> <div> 
         <a href="http://www.usc.edu">University of Southern California</a><br>
         Doctor of Philosophy (Ph.D.), Computer Science <br>
         2014 - present
-        </p>
     </div>
 
 
