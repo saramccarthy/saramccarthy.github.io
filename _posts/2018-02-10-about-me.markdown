@@ -6,12 +6,12 @@ blurb: Education - Research - Publications
 img:  # Add image post (optional)
 ---
 
-<img style="float: left; width: 2cm; hspace:15px" src="{{site.baseurl}}/assets/img/usc.png"> 
+<img style="float: left; width: 2.5cm; hspace:15px" src="{{site.baseurl}}/assets/img/usc.png"> 
         <a href="http://www.usc.edu">University of Southern California</a><br>
         Doctor of Philosophy (Ph.D.), Computer Science <br>
         2014 - present<br><br>
 
-<img style="float: left; width: 2cm; hspace:15px" src="{{site.baseurl}}/assets/img/mcgill.png"> 
+<img style="float: left; width: 2.5cm; hspace:15px" src="{{site.baseurl}}/assets/img/mcgill.png"> 
         <a href="http://www.mcgill.ca">McGill University</a> <br>
         Bachelor's Degree, Honours Physics <br>
         2011 - 2014 <br><br>
