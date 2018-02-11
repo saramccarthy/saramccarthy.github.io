@@ -9,7 +9,9 @@ img:  # Add image post (optional)
 <img style="float: left; width: 75px; hspace:90px" src="{{site.baseurl}}/assets/img/usc.png"> 
         <a href="http://www.usc.edu">University of Southern California</a><br>
         Doctor of Philosophy (Ph.D.), Computer Science <br>
-        2014 - present<br><br>
+        2014 - present
+</div>        
+<div style="font-size:12px;margin:10px;">
 
 <img style="float: left; width: 75px; hspace:90px" src="{{site.baseurl}}/assets/img/mcgill.png"> 
         <a href="http://www.mcgill.ca">McGill University</a> <br>
