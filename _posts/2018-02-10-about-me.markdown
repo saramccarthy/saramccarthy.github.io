@@ -5,14 +5,14 @@ stickied: true
 blurb: Education - Research - Publications
 img:  # Add image post (optional)
 ---
-<div style="font-size:12px;margin-left:10px;">
-<img style=" width: 75px; hspace:90px" src="{{site.baseurl}}/assets/img/usc.png"> 
+<div style="font-size:12px;margin-left:10px;height:80px;">
+<img style=" float:left;width: 75px; hspace:90px" src="{{site.baseurl}}/assets/img/usc.png"> 
         <a href="http://www.usc.edu">University of Southern California</a><br>
         Doctor of Philosophy (Ph.D.), Computer Science <br>
         2014 - present
 </div>        
-<div style="font-size:12px;margin-left:10px;">
-<img style="width: 75px; hspace:90px" src="{{site.baseurl}}/assets/img/mcgill.png"> 
+<div style="font-size:12px;margin-left:10px;height:80px">
+<img style="float:left;width: 75px; hspace:90px" src="{{site.baseurl}}/assets/img/mcgill.png"> 
         <a href="http://www.mcgill.ca">McGill University</a> <br>
         Bachelor's Degree, Honours Physics <br>
         2011 - 2014
