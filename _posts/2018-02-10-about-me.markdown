@@ -12,11 +12,10 @@ img:  # Add image post (optional)
         2014 - present
 </div>        
 <div style="font-size:12px;margin:10px;">
-
 <img style="float: left; width: 75px; hspace:90px" src="{{site.baseurl}}/assets/img/mcgill.png"> 
         <a href="http://www.mcgill.ca">McGill University</a> <br>
         Bachelor's Degree, Honours Physics <br>
-        2011 - 2014 <br><br>
+        2011 - 2014
 </div>
 My research focuses heavily on Artificial Intelligence, Game Theory and Decision Theory, Optimization and Learning (with rigorously reviewed publications at top conferences such as AAAI, IJCAI, AAMAS). At a high level I look at planning problems, mainly in the context of security, where we might be tasked with determining the best deployment and day to day use of resources as well operational planning (long term investments, managing budget for investments, choosing the best combination of resources). Some challenges that come up here are designing adaptive strategies, reasoning and planning under uncertainty, dealing with complex scheduling constraints, and solving massive scale games.
 
