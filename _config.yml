@@ -6,16 +6,13 @@ description: > # this means to ignore newlines until "baseurl:"
 permalink: ':title/'
 #baseurl: "./" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-site-twitter: #if your site has a twitter account, enter it here
 
 # Author Settings
 author: Sara Mc Carthy # add your name
 author-img: sara.png # add your photo
 about-author: PhD Candidate at the University of Southern California # add description
-#twitter: # add your Twitter handle
-#facebook: # add your Facebook handle
 github: saramccarthy # add your Github handle
-linkedin: # add your Linkedin handle
+linkedin: www.linkedin.com/in/sara-marie-mccarthy # add your Linkedin handle
 email: sara.m.mccarthy@gmail.com # add your Email address
 
 # Disqus
