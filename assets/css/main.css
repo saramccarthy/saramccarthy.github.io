@@ -926,8 +926,8 @@ table tfoot td {
 }
 
 .about .cover-author-image {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   margin: 0 auto 10px;
   -webkit-border-radius: 100%;
           border-radius: 100%;
@@ -979,7 +979,7 @@ table tfoot td {
   background-color: #515151;
 }
 .info{
-  
+
 }
 .info::after {
   content: "";
