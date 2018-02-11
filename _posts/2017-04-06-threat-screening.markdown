@@ -8,7 +8,7 @@ tags: [game-theory, threat-screening-game, airport-security]
 ---
 Screening people before allowing entry into a secure area is a standard practice throughout the world, e.g., screening resources are used to secure border crossings, sports stadiums, government buildings, etc. Of course, a majority of people will be familiar with airport passenger screening, where each passenger must pass through physical screening consisting of a combination of multiple types of resources (e.g. xray and walk-through metal detector) before boarding their flight. Given the significant projected future growth in aviation, agencies such as the Transportation Security Administration (TSA) in the United States are developing dynamic, risk-based screening approaches which optimize the use of resources so as to maintain a high level of security while handling increased passenger volume (AAAE 2014).
 
-<img style="float: left; width: 2.5cm; hspace:15px" src="{{site.baseurl}}/assets/img/screening.png"> 
+<img style="float: left; width: 6cm; hspace:15px" src="{{site.baseurl}}/assets/img/screening.png"> 
 Dynamic Risk Management
 Comprehensively assess risk on an individual, on a per flight basis and design a dynamic screening strategy for different risk levels.
 
