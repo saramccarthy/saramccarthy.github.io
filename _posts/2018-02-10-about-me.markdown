@@ -5,14 +5,15 @@ stickied: true
 img:  # Add image post (optional)
 ---
 
-![usc]({{site.baseurl}}/assets/img/usc.png)
-![mcgill]({{site.baseurl}}/assets/img/mcgill.png)
-
-<img style="float: left; width: 5cm" src="{{site.baseurl}}/assets/img/usc.png"> 
+<img style="float: left; width: 2cm" src="{{site.baseurl}}/assets/img/usc.png"> 
         <a href="http://www.usc.edu">University of Southern California</a><br>
         Doctor of Philosophy (Ph.D.), Computer Science <br>
         2014 - present
 
+<img style="float: left; width: 2cm" src="{{site.baseurl}}/assets/img/mcgill.png"> 
+        <a href="http://www.mcgill.ca">McGill University</a> <br>
+        Bachelor's Degree, Honours Physics <br>
+        2011 - 2014 <br>
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
