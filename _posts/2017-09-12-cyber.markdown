@@ -4,7 +4,7 @@ title: Cyber Security
 date: 2017-09-12 00:00:00 +0300
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
 img: cyberbanner.jpg # Add image post (optional)
-tags: [Productivity, Software] # add tag
+tags: [cybersecurity, decision-theory] # add tag
 ---
 
 Cyber systems are ubiquitous in today's world and have immensely increased work efficiency of large organizations. Our objective is to lay the foundations for an integrated theory and associated models and tools that improve our understanding of cyber attack-defense phenomena, allow better predictions of cyber attacks, and ultimately improve cyber security. Modeling the bounded rationality of the players in the game is a relatively unexplored area in cybersecurity. Cybersecurity relies on both technology and humans and has thus increasingly become a socio-technical issue, therefore one major aspect of our work will be its exploration of human behavior models and tests using human subject experiments. To keep the human in the loop we propose three player game model, with a defender (system administrator), attacker (hacker) and users, who can choose wether to comply with the defender's policies or not. <br><br>
