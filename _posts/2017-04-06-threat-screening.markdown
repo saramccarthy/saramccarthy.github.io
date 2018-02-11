@@ -2,7 +2,7 @@
 layout: post
 title: Threat Screening Games and National Security
 date: 2017-09-12 13:32:20 +0300
-description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
+description: Game theory for preventing attack in secure areas and protecting critical infrastructure. # Add post description (optional)
 img: airplane.jpg # Add image post (optional)
 tags: [game-theory, threat-screening-game, airport-security]
 ---
@@ -13,7 +13,6 @@ Threat Screening Games (TSG) are a game theoretic model, developed in collaborat
 
 However there are several challenges that are present in solving these types of games, namely
 
-#<img style="float: left; width: 8cm; hspace:15px" src="{{site.baseurl}}/assets/img/screening.png"> 
 ![screening]({{site.baseurl}}/assets/img/security.png)
 
 <strong> Dynamic Risk Management </strong>  
