@@ -11,10 +11,12 @@ Illegal logging is a major problem with severe economic and environmental impact
 
 <img style="float: left; width: 50%;" src="{{site.baseurl}}/assets/img/riskmap.png"> 
 
-<strong> Team Building Problem </strong>
+<strong> Team Building Problem </strong> 
+
 What team of resources should we invest in?
 
 <strong> Deployment Problem </strong>
+
 How do we maximize the protection of the forest? 
 How do we best deploy our team of resources?
 <br>
