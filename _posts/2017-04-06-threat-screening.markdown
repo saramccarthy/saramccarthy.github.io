@@ -11,9 +11,8 @@ The goal of this work is to develop efficient and effective game theoretic metho
 
 Threat Screening Games (TSG) are a game theoretic model, developed in collaboration with the Transportation Security Administration (TSA), which address these specific challenges by allowing the defender to remain unpredictable to a strategic adversary through randomized screening, allowing for more effective use of limited screening resources, leading to improved security. 
 
-However there are several challenges that are present in solving these types of games, namely
-
 ![screening]({{site.baseurl}}/assets/img/security.png)
+However there are several challenges that are present in solving these types of games, namely:<br>
 
 <strong> Dynamic Risk Management </strong>  
 We want to comprehensively assess risk on an individual basis and design a dynamic screening strategy for different risk levels, traffic volumes, and resource availability.
