@@ -9,6 +9,7 @@ tags: [game-theory, sustainability, forest] # add tag
 
 Illegal logging is a major problem with severe economic and environmental impact, costing up to USD $30 billion annually and threatening ancient forests and critical habitats for wildlife. As a result, improving the protection of forests is of great concern for many countries. Unfortunately in developing countries, budgetsfor protecting forests are often very limited. We focus on deploying resources to interdict the traversal of illegal loggers on thenetwork of roads and rivers around the forest area. However, we must first choose the right security team for interdiction; there are many different organizations that may be involved — from local volunteers, to police, to NGO personnel — each differing in their interdiction effectiveness and with varying costs of deployment Our challenge is to simultaneously select the best team of security resources and the best allocation of these resources.
 
+<span>
 <img style="float: left; width: 50%;" src="{{site.baseurl}}/assets/img/riskmap.png"> 
 
 <strong> Team Building Problem </strong> 
@@ -19,6 +20,7 @@ What team of resources should we invest in?
 
 How do we maximize the protection of the forest? 
 How do we best deploy our team of resources?
+<\span>
 <br>
 <br>
 
