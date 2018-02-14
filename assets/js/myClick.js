@@ -3,6 +3,10 @@ function myClick(i) {
     var type;
 	if (i == 1){
 		type = "sticky"
+	} else if ( i == 2){
+		type = "project"
+	} else if (i == 3){
+		type = "education"
 	}
     for(var i =0, il = x.length;i<il;i++){
 	    if (x[i].classList.contains(type)) {
