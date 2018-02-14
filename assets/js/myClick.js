@@ -4,6 +4,8 @@ function myClick(c) {
 	movement.animate(
 	    20,
 	    function(){
+	    	x[i].style.background-color: rgba(255,255,255,0.1);
+
 	      	if (x[i].style.display === "none") {
 		        x[i].style.display = "flex";
 		    } else {
