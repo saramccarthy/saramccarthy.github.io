@@ -1,0 +1,12 @@
+---
+layout: post
+education: true
+school: Mcill University
+url: http://www.mcgill.ca 
+start: 2011
+end: 2014
+degree: Bachelor's Degree, Honours Physics
+img: mcgill.png
+
+---
+
