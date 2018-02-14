@@ -1,8 +1,8 @@
 ---
 layout: post
-school: University of Southern California
-url:"http://www.usc.edu"
 education: true
+school: University of Southern California
+url: http://www.usc.edu 
 start: 2014
 end: present
 degree: Doctor of Philosophy (Ph.D.), Computer Science
