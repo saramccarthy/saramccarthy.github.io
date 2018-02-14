@@ -1163,6 +1163,9 @@ footer .copyright {
 .project{
   display: none;
 }
+.education{
+  display: none;
+}
 .post:hover {
   -webkit-transform: translate(0px, -2px);
       -ms-transform: translate(0px, -2px);
