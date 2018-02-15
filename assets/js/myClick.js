@@ -10,6 +10,7 @@ function myClick(i) {
 	}
     for(var i =0, il = x.length;i<il;i++){
 	    if (x[i].classList.contains(type)) {
+	    	console.log(x[i].classList)
 	        x[i].style.display = "flex";
 	    } else {
 	        x[i].style.display = "none";
