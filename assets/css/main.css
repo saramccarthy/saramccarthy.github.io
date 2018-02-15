@@ -102,6 +102,8 @@ a {
   background-color: transparent;
   /* 1 */
   -webkit-text-decoration-skip: objects;
+  text-decoration: none;
+    color: #79170aa8;
   /* 2 */
 }
 
@@ -875,7 +877,7 @@ table tfoot td {
 }
 
 .post, .article-page {
-  background-color: #fff;
+  background-color: rgba(255,255,255,0.6);
 }
 
 ::-moz-selection {
@@ -1232,7 +1234,6 @@ a.newer-posts:hover {
 }
 
 .header-page .page-date {
-  color: #a0a0a0;
   font-weight: 300;
   font-size: 12px;
   text-transform: uppercase;
@@ -1277,11 +1278,11 @@ a.newer-posts:hover {
 .page-footer .page-share a {
   display: inline-block;
   text-decoration: none;
-  background-color: #fafafa;
-  border: 1px solid #ecf0f1;
-  padding: 5px 10px;
-  margin-left: 5px;
-  color: #263959;
+      background-color: rgba(107, 105, 105, 0.74);
+    border: 1px solid #eee;
+    padding: 5px 10px;
+    margin-left: 5px;
+    color: #eee;
   font-size: 12px;
   -webkit-transition: background-color .3s;
   -o-transition: background-color .3s;
@@ -1412,7 +1413,7 @@ a.newer-posts:hover {
             justify-content: space-between;
     width: 100%;
     padding: 10px;
-    background-color: #ffffff;
+    background-color: rgba(255,255,255,0.6);
     -webkit-box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
             box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
   }
