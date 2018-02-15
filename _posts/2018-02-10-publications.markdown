@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "About Me"
+title: "Publications"
 publications: true
 blurb: Education - Research - Publications
 img:  # Add image post (optional)
