@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "About Me"
-stickied: true
+aboutme: true
 blurb: Education - Research - Publications
 img:  me.jpeg
 ---

@@ -17,3 +17,12 @@ function myClick(i) {
 	    }
 	}
 }
+
+function changeNav(element){
+	var x = document.getElementsByClassName("active");
+	for(var i =0, il = x.length;i<il;i++){
+		x[i].classList.remove("active");
+
+	}
+	element.classList.add("active");
+}

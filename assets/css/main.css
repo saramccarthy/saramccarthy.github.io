@@ -1535,4 +1535,8 @@ a.newer-posts:hover {
           transform: scale(1.2);
 }
 
+.nav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
 
