@@ -1518,7 +1518,7 @@ a.newer-posts:hover {
           transform: scale(1.2);
 }
 
-.active::before, .active::after{
+.actived::before, .actived::after{
    display: inline-block;
     margin: 4px 10px;
     height: 2px;
