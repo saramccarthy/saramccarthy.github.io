@@ -13,13 +13,15 @@ A large part of my work is developing solution methods that are usable in the re
 
 <h3><br>Education<br></h3>
 
-<div style="font-size:12px;margin-left:10px;height:80px;">
-<img style=" float:left;width: 75px; hspace:100px" src="{{site.baseurl}}/assets/img/usc.png"> 
+<div style="font-size:14px;margin-left:10px;height:80px;">
+<img style=" float:left;width: 75px; hspace:100px; padding-right:10px;" src="{{site.baseurl}}/assets/img/usc.png"> 
+<div style="padding-left:10px;">
 <a href="http://www.usc.edu">University of Southern California</a><br>
 Doctor of Philosophy (Ph.D.), Computer Science <br>
 2014 - present
+</div>
 </div>        
-<div style="font-size:12px;margin-left:10px;height:80px">
+<div style="font-size:14px;margin-left:10px;height:80px">
 <img style="float:left;width: 75px; hspace:100px" src="{{site.baseurl}}/assets/img/mcgill.png"> 
 <a href="http://www.mcgill.ca">McGill University</a> <br>
 Bachelor's Degree, Honours Physics <br>
