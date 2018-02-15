@@ -1535,8 +1535,13 @@ a.newer-posts:hover {
           transform: scale(1.2);
 }
 
-.nav a.active {
-    background-color: #4CAF50;
-    color: white;
+.active::before, .active::after{
+   display: inline-block;
+    margin: 4px 10px;
+    height: 2px;
+    content: " ";
+    text-shadow: none;
+    background-color: #999;
+    width: 10px;
 }
 
