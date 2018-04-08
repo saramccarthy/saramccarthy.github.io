@@ -39,10 +39,10 @@ Consider the following multiple layer feedforward neural network optimization pr
 <div>
 <p>
 
-\[(1)
+$$(1)
 \displaystyle{{\text{minimize}}_{\boldsymbol{W}^{c}}} \, \, \ell(\mathcal{F}_h(\boldsymbol{W}^{c}),\boldsymbol{Y}^{c}) \quad \mbox{with} \quad \begin{cases} \mathcal{F}_1(\boldsymbol{W}^{c}) \triangleq \sigma_1({\boldsymbol{W}_1^{c}}\boldsymbol{X}^{c})\\
 \mathcal{F}_k(\boldsymbol{W}^{c}) \triangleq \sigma_k \big({\boldsymbol{W}_{k}^{c}}\mathcal{F}_{k-1}(\boldsymbol{W}^{c})\big), \, k \in [2,h]\end{cases}
-\]
+$$
 
 \[\label{OWA} (2)
 \displaystyle{ {\mbox{minimize}}_{\boldsymbol{v}}} \, \, \ell(\mathcal{F}_h(\boldsymbol{v}),\boldsymbol{Y}) \quad \mbox{with} \quad \begin{cases} \mathcal{F}_1(\boldsymbol{v}_1) \triangleq \sigma_1({\boldsymbol{v}_1\boldsymbol{W}_1}\boldsymbol{X})\\
