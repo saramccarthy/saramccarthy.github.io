@@ -37,10 +37,10 @@ In <span class="citation" data-cites="McMahan">(McMahan et al. 2016)</span>, the
 
 Consider the following multiple layer feedforward neural network optimization problem:
 
-$$ \label{DP} (1) \;
+\( \label{DP} (1) \;
 \displaystyle{{\mbox{minimize}}_{\boldsymbol{W}^{c}}} \, \, \ell(\mathcal{F}_h(\boldsymbol{W}^{c}),\boldsymbol{Y}^{c}) \quad \mbox{with} \quad \begin{cases} \mathcal{F}_1(\boldsymbol{W}^{c}) \triangleq \sigma_1({\boldsymbol{W}_1^{c}}\boldsymbol{X}^{c})\\
 \mathcal{F}_k(\boldsymbol{W}^{c}) \triangleq \sigma_k \big({\boldsymbol{W}_{k}^{c}}\mathcal{F}_{k-1}(\boldsymbol{W}^{c})\big), \, k \in [2,h]\end{cases}
-$$
+\)
 
 
 where \( \sigma_k (\cdot),\, k = 1,\ldots h \), 
