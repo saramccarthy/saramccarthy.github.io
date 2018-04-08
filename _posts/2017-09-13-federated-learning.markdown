@@ -38,16 +38,10 @@ In <span class="citation" data-cites="McMahan">(McMahan et al. 2016)</span>, the
 Consider the following multiple layer feedforward neural network optimization problem:
 <div>
 <p>
-
-$$(1)
+\[\]
+\[(1)
 \displaystyle{{\text{minimize}}_{\boldsymbol{W}^{c}}} \, \, \ell(\mathcal{F}_h(\boldsymbol{W}^{c}),\boldsymbol{Y}^{c}) \quad \mbox{with} \quad \begin{cases} \mathcal{F}_1(\boldsymbol{W}^{c}) \triangleq \sigma_1({\boldsymbol{W}_1^{c}}\boldsymbol{X}^{c})\\
-\mathcal{F}_k(\boldsymbol{W}^{c}) \triangleq \sigma_k \big({\boldsymbol{W}_{k}^{c}}\mathcal{F}_{k-1}(\boldsymbol{W}^{c})\big), \, k \in [2,h]\end{cases}
-$$
-
-\[\label{OWA} (2)
-\displaystyle{ {\mbox{minimize}}_{\boldsymbol{v}}} \, \, \ell(\mathcal{F}_h(\boldsymbol{v}),\boldsymbol{Y}) \quad \mbox{with} \quad \begin{cases} \mathcal{F}_1(\boldsymbol{v}_1) \triangleq \sigma_1({\boldsymbol{v}_1\boldsymbol{W}_1}\boldsymbol{X})\\
-\mathcal{F}_k(\boldsymbol{v}_k) \triangleq \sigma_k \big(\boldsymbol{v}_k{\boldsymbol{W}_{k}}\mathcal{F}_{k-1}(\boldsymbol{W})\big), \mbox{  for } k \in [2,h],\end{cases}
-\]
+\mathcal{F}_k(\boldsymbol{W}^{c}) \triangleq \sigma_k \big({\boldsymbol{W}_{k}^{c}}\mathcal{F}_{k-1}(\boldsymbol{W}^{c})\big), \, k \in [2,h]\end{cases}\]
 
 where \( \sigma_k (\cdot),\, k = 1,\ldots h \), 
 are the activation functions for different layers, 
@@ -59,10 +53,6 @@ is the input training data for client \(c\), \(\mathcal{F}_h()\) gives the outpu
 \(\boldsymbol{W}_i = \sum_{c \in {\cal C}} \frac{\boldsymbol{W}_i^c}{|\mathcal C|}\)
 where \({\cal C}\) is the set of clients, was used to update the central parameters. An improved averaging procedure was introduced by <span class="citation" data-cites="Izbicki">(M. Izbicki 2017)</span> which involves solving the following optimization problem:
 
-</p>
-</div>
-<div>
-<p>
 \[\label{OWA} (2)
 \displaystyle{ {\mbox{minimize}}_{\boldsymbol{v}}} \, \, \ell(\mathcal{F}_h(\boldsymbol{v}),\boldsymbol{Y}) \quad \mbox{with} \quad \begin{cases} \mathcal{F}_1(\boldsymbol{v}_1) \triangleq \sigma_1({\boldsymbol{v}_1\boldsymbol{W}_1}\boldsymbol{X})\\
 \mathcal{F}_k(\boldsymbol{v}_k) \triangleq \sigma_k \big(\boldsymbol{v}_k{\boldsymbol{W}_{k}}\mathcal{F}_{k-1}(\boldsymbol{W})\big), \mbox{  for } k \in [2,h],\end{cases}
