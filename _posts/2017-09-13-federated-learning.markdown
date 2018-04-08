@@ -3,10 +3,14 @@ layout: post
 title: Private Collaborative Machine Learning
 project: true
 date: 2017-09-13 13:32:20 +0300
-description: Game theory for preventing attack in secure areas and protecting critical infrastructure. # Add post description (optional)
-img: airplane.jpg # Add image post (optional)
-tags: [game-theory, threat-screening-game, airport-security]
+description: A project on differentially private distributed deep learning. 
+img: mltree.jpg # Add image post (optional)
+tags: [machine-learning, privacy]
 ---
+
+<script type="text/javascript" async
+src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
 
 <h4><b>Federated Learning</b></h4>
 <p>
