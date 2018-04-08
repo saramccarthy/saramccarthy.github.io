@@ -2,7 +2,7 @@
 layout: post
 title: Private Collaborative Machine Learning
 project: true
-date: 2017-09-12 13:32:20 +0300
+date: 2017-09-13 13:32:20 +0300
 description: Game theory for preventing attack in secure areas and protecting critical infrastructure. # Add post description (optional)
 img: airplane.jpg # Add image post (optional)
 tags: [game-theory, threat-screening-game, airport-security]
