@@ -37,10 +37,11 @@ In <span class="citation" data-cites="McMahan">(McMahan et al. 2016)</span>, the
 
 Consider the following multiple layer feedforward neural network optimization problem:
 
-\( \label{DP} (1) \;
+<p>
+\[ \label{DP} (1) \;
 \displaystyle{{\mbox{minimize}}_{\boldsymbol{W}^{c}}} \, \, \ell(\mathcal{F}_h(\boldsymbol{W}^{c}),\boldsymbol{Y}^{c}) \quad \mbox{with} \quad \begin{cases} \mathcal{F}_1(\boldsymbol{W}^{c}) \triangleq \sigma_1({\boldsymbol{W}_1^{c}}\boldsymbol{X}^{c})\\
 \mathcal{F}_k(\boldsymbol{W}^{c}) \triangleq \sigma_k \big({\boldsymbol{W}_{k}^{c}}\mathcal{F}_{k-1}(\boldsymbol{W}^{c})\big), \, k \in [2,h]\end{cases}
-\)
+\]
 
 
 where \( \sigma_k (\cdot),\, k = 1,\ldots h \), 
@@ -61,6 +62,7 @@ where \({\cal C}\) is the set of clients, was used to update the central paramet
 where \(\boldsymbol{v} = \big(\boldsymbol{v}_i)_{i=1}^h\), \(\boldsymbol{v}_i\) are the optimal averaging weights for layer \(i)\), \(\boldsymbol{W_i} \) is a third order tensor constructed by stacking \(\boldsymbol{W}_i^c \) for all \() \in {\cal C}\), and \(\boldsymbol{X}\) and \(\boldsymbol{Y}\) are subsets of the input and target training data for clients respectively.<br><br>
 
 It follows from (2), that OWA merging procedure uses the same model learned by the clients, but replaces, at each layer, the weight matrices \(\boldsymbol{W}_i^c\) by a weighted average \(\boldsymbol{v}_i\boldsymbol{W}_i\), and optimizes over \(\boldsymbol{v}_i\). This model is trained by \textit{central curator}, and \(\boldsymbol{v}_i^{*}\boldsymbol{W}_i\), with \(\boldsymbol{v}_i^{*}\) being the optimal client weight for layer \(i\), will be used to update the shared model.<br><br>
+</p>
 
 As mentioned above the reduction of privacy risk is one of the main advantages of \textit{Federated Learning}. This is achieved by waving the need to send user data to the \textit{central curator}. One drawback of the OWA model is that it requires sending data form the clients in order to train the client weights. However, since the number of weights that need to be optimized is fairly small (Number of clients x Number of layers), we only require a small subset of the data for training. Thus implementing the OWA model imposes a trade-off between privacy and the algorithm's resulting accuracy. In particular, with a larger data subset sent to train the OWA model, we can achieve a better testing accuracy, but the algorithm will become less private. For instance, if no data is sent to the OWA model, the model will not lose any privacy, but might not achieve a high accuracy. On the other hand, by sending all client datasets to train the OWA model, we sacrifice the privacy benefit gained by the Federated Learning algorithm to get a higher accuracy. In practice, we suggest sending a small subset of data, to gain accuracy without losing too much privacy. <br>
 
