@@ -95,13 +95,13 @@ In contrast to <span class="citation" data-cites="Izbicki">(M. Izbicki 2017)</sp
 
 To test the Federated Learning model with optimized weights we modified the partitioning of the data slightly so that we reserved 5% of the data to be used to train the optimization model. The remaining portion of the cifar dataset was partitioned in an iid and non-iid fashion as before. In the iid setting the optimization of the weights did not provide a large benefit. We see a slight improvement in accuracy and in speed of convergence, but the standard averaging is able to match the optimized averaging quite closely. We believe that this is due to the nature of the iid distributed data; Since each client model is trained on similar distributions of data, at the end of each training session, all of the models are likely to have learned similar parameters, and thus an equal weight averaging of the parameters is likely to be close to optimal. However, we see significant improvements in the setting of non-iid distributed data. In this case we see we acheive much heigher training accuracy, reaching up to 80% accuracy with optimized averaging compared to 65% without the optimization, which is approximately a 23% improvement in accuracy. Not only that, but we also see that we get much smoother convergence with the optimized weights, while the standard federated learning accuracy is still very noisy even after 200 communication rounds. <br><br>
 <figure>
-<img src="iid.png" alt="iid-graphs" width="100%">
+<img src="iid.png" alt="{{site.baseurl}}/assets/img/iid-graphs" width="100%">
 <figcaption>Figure 1: Test Accuracy and Loss of optimized weighted averaging (owa) 
 compared to standard equal weighted averaging (average) 
 for iid-data partitioning.</figcaption>
 </figure>
 <figure>
-<img src="niid.png" alt="niid-graphs" width="100%">
+<img src="{{site.baseurl}}/assets/img/niid.png" alt="niid-graphs" width="100%">
 <figcaption>Figure 2: Test Accuracy and Loss of optimized weighted averaging (owa) 
 compared to standard equal weighted averaging (average) 
 for non-iid-data partitioning.</figcaption>
