@@ -13,6 +13,8 @@ The goal of this work is to develop efficient and effective game theoretic metho
 Threat Screening Games (TSG) are a game theoretic model, developed in collaboration with the Transportation Security Administration (TSA), which address these specific challenges by allowing the defender to remain unpredictable to a strategic adversary through randomized screening, allowing for more effective use of limited screening resources, leading to improved security. 
 
 ![screening]({{site.baseurl}}/assets/img/security.png)
+<br><br>
+
 However there are several challenges that are present in solving these types of games, namely:<br>
 
 <h4> Dynamic Risk Management </h4>  
@@ -21,7 +23,7 @@ We want to comprehensively assess risk on an individual basis and design a dynam
 <h4> Real World Uncertainty </h4>    
 There is inherent uncertainty in the arrival times of the screenees. Addressing this challenge can be difficult as it requires reasoning about all the possible realizations of the uncertainty and coming up with an optimal plan for each of those scenarios. When dealing with a large number of screenees, this result in millions of possible scenarios, making the planning problem extremely difficult.
 
-To address this shortcoming, I introduced a new model \emph{Robust Threat Screening Games (RTSG)}(Mc Carthy 2017), which expresses the required uncertainty in screenee arrival times. In RTSG, we model the problem faced by a screener as a robust multistage optimization problem. We present a tractable solution approach with three key novelties that contribute to its efficiency: \emph{(i)} compact linear decision rules; \emph{(ii)} robust reformulation; and \emph{(iii)} constraint randomization. We present extensive empirical results that show that our approach outperforms the original TSG methods that ignore uncertainty, and the exact solution methods that account for uncertainty.
+To address this shortcoming, I introduced a new model <i>Robust Threat Screening Games (RTSG)</i> (Mc Carthy 2017), which expresses the required uncertainty in screenee arrival times. In RTSG, we model the problem faced by a screener as a robust multistage optimization problem. We present a tractable solution approach with three key novelties that contribute to its efficiency: (i) compact linear decision rules; (ii) robust reformulation; and (iii) constraint randomization. We present extensive empirical results that show that our approach outperforms the original TSG methods that ignore uncertainty, and the exact solution methods that account for uncertainty.
 
 <h4> Team Formation </h4>  
 We have many different screening resources with differing efficacies, capacities and costs that may be combined to work in teams. The problem of Simultaneously Optimizing over Resource Team composition and Tactical deployment (SORT) (Mc Carthy 2016) is an important problem in many security game models, as solutions can be suboptimal if the defender does not strategically reason about how to form teams of resources. 
