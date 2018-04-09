@@ -106,7 +106,7 @@ for iid-data partitioning.</figcaption>
 compared to standard equal weighted averaging (average) 
 for non-iid-data partitioning.</figcaption>
 </figure>
-These results are significant, as they not only demonstrate the benefit of optimized averaging on networks much more complex than in <span class="citation" data-cites="Izbicki">(M. Izbicki 2017)</span> but we also show significantly larger improvements with this method (23% improvement here versus 2% improvement in their setting). </p>
+These results are significant, as they not only demonstrate the benefit of optimized averaging on networks much more complex than in <span class="citation" data-cites="Izbicki">(M. Izbicki 2017)</span> but we also show significantly larger improvements with this method (23% improvement here versus 2% improvement in their setting).
 <h5><b> Differentially Private Learning </b></h5>
 As mentioned previously it is currently computationally infeasible to provide differential privacy guaruntees for training convolutional layers. What this means is that in order to use DP-SGD for our Cifar10 network architecture we cannot have trainable convolutional layers. To get around this and still provide privacy guaruntees for our model we tried three different techniques for training the network privately:
 <ul>
