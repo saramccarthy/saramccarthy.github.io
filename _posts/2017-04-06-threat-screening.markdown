@@ -15,21 +15,30 @@ Threat Screening Games (TSG) are a game theoretic model, developed in collaborat
 ![screening]({{site.baseurl}}/assets/img/security.png)
 However there are several challenges that are present in solving these types of games, namely:<br>
 
-<strong> Dynamic Risk Management </strong>  
+<h4> Dynamic Risk Management </h4>  
 We want to comprehensively assess risk on an individual basis and design a dynamic screening strategy for different risk levels, traffic volumes, and resource availability.
 
-<strong> Team Formation </strong>  
-We have many different screening resources
-with differing efficacies, capacities and costs that may be combined
-to work in teams.
+<h4> Real World Uncertainty </h4>    
+There is inherent uncertainty in the arrival times of the screenees. Addressing this challenge can be difficult as it requires reasoning about all the possible realizations of the uncertainty and coming up with an optimal plan for each of those scenarios. When dealing with a large number of screenees, this result in millions of possible scenarios, making the planning problem extremely difficult.
 
-<strong> Real World Uncertainty </strong>    
-We need to deal with uncertainty in when screenees arrive 
-and design an adaptive screening strategy based on past information.
+To address this shortcoming, I introduced a new model \emph{Robust Threat Screening Games (RTSG)}(Mc Carthy 2017), which expresses the required uncertainty in screenee arrival times. In RTSG, we model the problem faced by a screener as a robust multistage optimization problem. We present a tractable solution approach with three key novelties that contribute to its efficiency: \emph{(i)} compact linear decision rules; \emph{(ii)} robust reformulation; and \emph{(iii)} constraint randomization. We present extensive empirical results that show that our approach outperforms the original TSG methods that ignore uncertainty, and the exact solution methods that account for uncertainty.
+
+<h4> Team Formation </h4>  
+We have many different screening resources with differing efficacies, capacities and costs that may be combined to work in teams. The problem of Simultaneously Optimizing over Resource Team composition and Tactical deployment (SORT) (Mc Carthy 2016) is an important problem in many security game models, as solutions can be suboptimal if the defender does not strategically reason about how to form teams of resources. 
+
+This class of problems, combines strategic planning which looks at the challenge of optimizing over <i>the configurations of resources</i> in each pure strategy, and tactical planning, which optimizes the <i>deployment</i> of these resources. In contrast with standard security games, where the defender has a fixed set of resources to be deployed, the SORT problem generalizes the security game problem by allowing the defender to additionally choose what <i>teams</i> of resources to form. In (Mc Carthy 17) we introduce the TSG-SORT model by extend the TSG model to allow the defender to perform this strategic planning over the teams of resources.
+
+<h4> Operationalizable Plans </h4>
+Optimal solutions to TSGs typically involve randomizing over a large number of pure strategies, each corresponding to a different security protocol. Thus, while they are by far preferable to deterministic strategies from an efficiency perspective, they are difficult to operationalize, requiring the security personnel to be familiar with numerous protocols in order to execute them.
+
+To address this challenge, I developed a mixed-integer optimization model for computing strategies that are <i>easy to operationalize</i> and that bridge the gap between the suboptimal deterministic solution and the optimal yet impracticable mixed strategy. These strategies only randomize over an optimally chosen subset of pure strategies whose cardinality is selected by the defender, enabling them to conveniently tune the trade-off between ease of operationalization and efficiency using a single design parameter. The optimization formulation does not scale to realistic size instances and we propose a novel solution approach for computing &epsilon;-optimal equilibria as well as a heuristic for computing operationalizable strategies to TSG-SORT. We perform extensive numerical evaluation that showcases the solution quality and scalability of our approach and illustrate that the Price of Usability is typically not high.
+
 
 <h3><br>Relevant Publications<br></h3>
 
 <ul>
 <li><strong>Sara Mc Carthy</strong>, Phebe Vayanos, Milind Tambe. <a href="https://doi.org/10.24963/ijcai.2017/527" target="https://doi.org/10.24963/ijcai.2017/527">Staying Ahead of the Game: Adaptive Robust Optimization for Dynamic Allocation of Threat Screening Resources</a>. In <em> Proceedings of the International Joint Conference on Artificial Intelligence (IJCAI) 2017</em> 
+</li> 
+<li><strong>Sara Mc Carthy</strong>, Corine Lann, Kai Wang, Phebe Vayanos, Milind Tambe, Arunesh Sinha. <a href="" target="">The Price of Usability: Designing Operationalizable Strategies for Security Games</a>. In <em> submission </em> 
 </li> 
 </ul> 
