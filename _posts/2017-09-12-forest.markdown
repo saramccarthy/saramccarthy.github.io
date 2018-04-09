@@ -3,7 +3,7 @@ layout: post
 title: AI for Environmental Sustainability 
 project: true
 date: 2017-09-12 00:00:00 +0300
-description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
+description: Using AI to address resources allocation challenges for forest and wildlife protection. In collaboration with AVG, Panthera, WWF and WCS.
 img: forest.jpg # Add image post (optional)
 tags: [game-theory, sustainability, forest] # add tag
 ---
