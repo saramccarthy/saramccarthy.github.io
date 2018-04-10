@@ -38,10 +38,7 @@ contrasts with most previous game-theoretic research for green security - in par
 We evaluate our methods on a variety of synthetic examples, as well as a real-world case
 study using data from our on-going collaboration in Madagascar.
 
-<div style="width:100%">
-    <div style="width:100%;min-width: 200px !important; display:inline-block;padding-right:30px;padding-left:15px" ><img src="{{site.baseurl}}/assets/img/fortify_data.jpg"> </div>
-    <div style="width:45%;display:inline-block;margin:auto;" >
-    </div>
+![data]({{site.baseurl}}/assets/img/fortify_data.png){: margin: 0 auto; display: block;}
 
 <h3><br>Relevant Publications<br></h3>
 
