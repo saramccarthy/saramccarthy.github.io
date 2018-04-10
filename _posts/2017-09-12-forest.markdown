@@ -8,7 +8,10 @@ img: forest.jpg # Add image post (optional)
 tags: [game-theory, sustainability, forest] # add tag
 ---
 
-Illegal logging is a major problem with severe economic and environmental impact, costing up to USD $30 billion annually and threatening ancient forests and critical habitats for wildlife. As a result, improving the protection of forests is of great concern for many countries. Unfortunately in developing countries, budgetsfor protecting forests are often very limited. We focus on deploying resources to interdict the traversal of illegal loggers on thenetwork of roads and rivers around the forest area. However, we must first choose the right security team for interdiction; there are many different organizations that may be involved — from local volunteers, to police, to NGO personnel — each differing in their interdiction effectiveness and with varying costs of deployment. Our challenge is to simultaneously select the best team of security resources and the best allocation of these resources.
+Environmental Sustainability is an extremely important global issue being faced today; particularly the security and protection of our wildlife and natural resources, where all around the world they are being threatened by human behavior such a poaching, deforestation, over fishing and encroachment. This project is ongoing work in collaboration with several non-govermental organizations such as Panthera, WWF, WCS and AVG, developing game theoretic models and security software to help optimize the protection of these important resources.
+
+In general, game theory for security focuses on the fundamental challenge of allocating limited security resources to a number of targets. Green security games deals specifically with challenges in the protection of forests, fish and wildlife - here we take a motivating examples the the problem of optimizing the defense of forests against illegal logging. Illegal logging is a major problem with severe economic and environmental impact, costing up to USD $30 billion annually and threatening ancient forests and critical habitats for wildlife. As a result, improving the protection of forests is of great concern for many countries. Unfortunately in developing countries, budgets for protecting forests are often very limited. We focus on deploying resources to interdict the traversal of illegal loggers on thenetwork of roads and rivers around the forest area. However, we must first choose the right security team for interdiction; there are many different organizations that may be involved — from local volunteers, to police, to NGO personnel — each differing in their interdiction effectiveness and with varying costs of deployment. Our challenge is to simultaneously select the best team of security resources and the best allocation of these resources.
+
 
 <div style="width:100%">
     <div style="width:45%;min-width: 200px !important; display:inline-block;padding-right:20px" ><img src="{{site.baseurl}}/assets/img/riskmap.png"> </div>
@@ -23,6 +26,18 @@ How do we best deploy our team of resources?</div>
 </div>
 <br>
 <br>
+
+This work introduces a new, yet fundamental problem: Simultaneous Optimization of Resource Teams and Tactics (SORT). SORT
+contrasts with most previous game-theoretic research for green security - in particular based on security games - that has solely focused on optimizing patrolling tactics, without consideration of team formation or coordination. In our approach to SORT, we integrate the analysis of the strategic and tactical aspects of the problem to search the space of teams much more efficiently. Our algorithm FORTIFY uses successive relaxations of the security game to evaluate potential teams; as we explore the search space of teams we add more detail to our models, tightening upper bounds on the values of teams and allowing us to prune away any sub-optimal teams.
+
+![fortify]({{site.baseurl}}/assets/img/fortify.png)
+
+
+We evaluate our methods on a variety of synthetic examples, as well as a real-world case
+study using data from our on-going collaboration in Madagascar.
+
+
+
 
 <h3><br>Relevant Publications<br></h3>
 
