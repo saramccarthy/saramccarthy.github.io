@@ -35,10 +35,11 @@ contrasts with most previous game-theoretic research for green security - in par
 ![fortify]({{site.baseurl}}/assets/img/fortify.png){: margin: 0 auto; display: block;}
 
 
-We evaluate our methods on a variety of synthetic examples, as well as a real-world case
-study using data from our on-going collaboration in Madagascar.
+We evaluated this work on a real-world case study using data from our on-going collaboration in Madagascar. We see here the GIS data from an at risk park in madagascar. With this data we compared the level of protection (here measured with utility) acheived using the optimized team chosen by the Fortify algorithm compared to the average level of protection acheived using all other teams of the same cost. Note that we are measuring utility as the expected loss due to an attack.
 
 ![data]({{site.baseurl}}/assets/img/fortify_data.png){: margin: 0 auto; display: block;}
+
+We can see significant improvements in utility when we optimize over team members, particularly as our budget for investment in resources (and thus the number of possible teams) grows.
 
 <h3><br>Relevant Publications<br></h3>
 
