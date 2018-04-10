@@ -32,7 +32,7 @@ How do we best deploy our team of resources?</div>
 This work introduces a new, yet fundamental problem: Simultaneous Optimization of Resource Teams and Tactics (SORT). SORT
 contrasts with most previous game-theoretic research for green security - in particular based on security games - that has solely focused on optimizing patrolling tactics, without consideration of team formation or coordination. In our approach to SORT, we integrate the analysis of the strategic and tactical aspects of the problem to search the space of teams much more efficiently. Our algorithm FORTIFY uses successive relaxations of the security game to evaluate potential teams; as we explore the search space of teams we add more detail to our models, tightening upper bounds on the values of teams and allowing us to prune away any sub-optimal teams.
 
-![fortify]({{site.baseurl}}/assets/img/fortify.png)
+![fortify]({{site.baseurl}}/assets/img/fortify.png){: margin: 0 auto; display: block;}
 
 
 We evaluate our methods on a variety of synthetic examples, as well as a real-world case
