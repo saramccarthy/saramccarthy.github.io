@@ -41,12 +41,17 @@ We evaluated this work on a real-world case study using data from our on-going c
 
 We can see significant improvements in utility when we optimize over team members, particularly as our budget for investment in resources (and thus the number of possible teams) grows.
 
+<h2>SMART: Spatial Monitoring and Reporting Tool </h2>
+SMART is a free, open source software application that allows conservationish to collect, analyze and evaluate data on patrol efforts, patrol results, and threat levels. In collaboration with the World Wildlife Fund (WWF), Wildlife Conservation Society (WCS) and Panthera, we have been working on integrating our predictive and prescriptive models into the SMART software. This will allow conservation areas all around the world access to our game theoretic and machine learning software which allow them to perform predictive analysis to better determine where attacks and signs of disturbance are likely to occur and to plan patrols in order to maximize their interdiction of these illegal activities and deterrant effect of the patrols. 
+
 <h3><br>Relevant Publications<br></h3>
 
 <ul>
 <li><strong>Sara Mc Carthy</strong>, Milind Tambe, Christopher Kiekintveld, Meredith L. Gore, Alex Killion. <a href="http://teamcore.usc.edu/pubDetails.aspx?id=800" target="_blank">Preventing Illegal Logging: Simultaneous Optimization of Resource Teams and Tactics for Security</a>. In <em> Proceedings of the Association for the Advancement of Artificial Intelligence (AAAI) 2016</em> 
 </li> <br>
-
+    
+<li>Shahrzad Gholami, <strong> Sara Mc Carthy</strong>, Bistra Dilkina, Andrew Plumptre, Milind Tambe, Margaret Driciru, Fred Wanyama, Aggrey Rwetsiba, Mustapha Nsubaga, Joshua Mabonga. <a href="http://teamcore.usc.edu/papers/2018/sgholami_aamas18.pdf" target="_blank"> Adversary models account for imperfect crime data: Forecasting and planning against real-world poachers</a>. In <em>International Conference on Autonomous Agents and Multi-agent Systems (AAMAS 2018) </em>
+</li> <br>
 </ul> 
 
 <h3><br>Media Coverage<br></h3>
