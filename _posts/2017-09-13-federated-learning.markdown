@@ -2,7 +2,7 @@
 layout: post
 title: Private Collaborative Machine Learning
 project: true
-date: 2017-09-13 13:32:20 +0300
+date: 2017-11-01 13:32:20 +0300
 description: A project on differentially private distributed deep learning. 
 img: mltree.jpg # Add image post (optional)
 tags: [machine-learning, privacy]
