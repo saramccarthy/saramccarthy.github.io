@@ -7,6 +7,8 @@ function myClick(i) {
 		type = "project"
 	} else if (i == 3){
 		type = "education"
+	} else if (i==4){
+		type ="side-project"
 	}
     for(var i =0, il = x.length;i<il;i++){
 	    if (x[i].classList.contains(type)) {
