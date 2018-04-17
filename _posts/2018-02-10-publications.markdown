@@ -11,9 +11,6 @@ img:  # Add image post (optional)
 <h3><br>Conference and Journal Publications<br></h3>
 
 <ul>
-<li><strong>Sara Mc Carthy</strong>, Corine Laan, Kai Want, Arunesh Sinha, Phebe Vayanos, Milind Tambe. <a href="" target="">The Price of Usability: Designing Operationalizable Strategies for Security Games</a>. In <em> Proceedings of the International Joint Conference on Artificial Intelligence (IJCAI) 2018</em> 
-</li> <br>
-
 <li> Shahrzad Gholami, <strong>Sara Mc Carthy</strong>, Bistra Dilkina, Andrew Plumptre, Milind Tambe, Margaret Driciru, Fred Wanyama, Aggrey Rwetsiba, Mustapha Nsubaga, Joshua Mabonga. <a href="https://doi.org/10.24963/ijcai.2017/527" target="https://doi.org/10.24963/ijcai.2017/527">Adversary models account for imperfect crime data: Forecasting and planning against real-world poachers</a>. In <em> International Conference on Autonomous Agents and Multi-agent Systems (AAMAS 2018)</em></li><br>
 
 <li><strong>Sara Mc Carthy</strong>, Phebe Vayanos, Milind Tambe. <a href="https://doi.org/10.24963/ijcai.2017/527" target="https://doi.org/10.24963/ijcai.2017/527">Staying Ahead of the Game: Adaptive Robust Optimization for Dynamic Allocation of Threat Screening Resources</a>. In <em> Proceedings of the International Joint Conference on Artificial Intelligence (IJCAI) 2017</em> 
