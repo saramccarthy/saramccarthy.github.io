@@ -4,6 +4,7 @@ layout: main
 {% for post in paginator.posts %}
 {% if post.stickied %}
   <article class="post sticky">
+
     {% if post.img %}
       <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
     {% else %}
@@ -11,6 +12,19 @@ layout: main
     <div class="post-content">
       <h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
       <p>{{ post.blurb }}</p>
+    </div>
+  </article>
+{% endif %}
+{% if post.education %}
+  <article class="post education">
+    {% if post.img %}
+      <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
+    {% else %}
+    {% endif %}
+    <div class="post-content">
+      <h2 class="post-title"><a href="{{ post.url }}">{{post.school}}</a></h2>
+        <p>{{ post.degree }}</p>
+        <p>{{ post.start }} — {{ post.end }}</p>
     </div>
   </article>
 {% endif %}
