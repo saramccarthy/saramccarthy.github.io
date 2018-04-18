@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Adversarial Ensemble Learning 
-side-project: true
 project: true
 date: 2017-12-01 13:32:20 +0300
 description: Looking at how to defend against adversarial examples by using an ensemble of deep learning models. 
