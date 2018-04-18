@@ -127,7 +127,7 @@ Once these two challenges are addressed and a model can be trained differentiall
 <br><br>
 Finally, if this is accomplished, we further hope to move away from differential privacy's traditional homogeneous privacy guarantee for all users to a heterogeneous per-user privacy guarantee (selectable by each user). This would be useful in scenarios where users want some control over the data, allowing them to be in control of the trade-off between their own privacy and the model's resulting utility.   
 
-[Github project page](https://github.com/saramccarthy/DP_federatedlearning)
+[Github Project Page](https://github.com/saramccarthy/DP_federatedlearning)
 
 <h3><b>References</b></h3>
 <div id="ref-Abadi">
