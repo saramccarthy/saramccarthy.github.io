@@ -11,7 +11,7 @@ img:  # Add image post (optional)
 <h3><br>Conference and Journal Publications<br></h3>
 
 <ul>
-<li><strong>Sara Mc Carthy</strong>, Corine Laan, Kai Want, Arunesh Sinha, Phebe Vayanos, Milind Tambe. <a href="" target="">The Price of Usability: Designing Operationalizable Strategies for Security Games</a>. In <em> Proceedings of the International Joint Conference on Artificial Intelligence (IJCAI) 2018</em> 
+<li><strong>Sara Mc Carthy</strong>, Corine Laan, Kai Want, Arunesh Sinha, Phebe Vayanos, Milind Tambe. <a href="https://www.ijcai.org/proceedings/2018/63" target="">The Price of Usability: Designing Operationalizable Strategies for Security Games</a>. In <em> Proceedings of the International Joint Conference on Artificial Intelligence (IJCAI) 2018</em> 
 </li> <br>
 
 <li> Shahrzad Gholami, <strong>Sara Mc Carthy</strong>, Bistra Dilkina, Andrew Plumptre, Milind Tambe, Margaret Driciru, Fred Wanyama, Aggrey Rwetsiba, Mustapha Nsubaga, Joshua Mabonga. <a href="https://doi.org/10.24963/ijcai.2017/527" target="https://doi.org/10.24963/ijcai.2017/527">Adversary models account for imperfect crime data: Forecasting and planning against real-world poachers</a>. In <em> International Conference on Autonomous Agents and Multi-agent Systems (AAMAS 2018)</em></li><br>
@@ -20,7 +20,7 @@ img:  # Add image post (optional)
 </li> <br>
 <li><strong>Sara Mc Carthy</strong>, Arunesh Sinha, Milind Tambe, Pratyusa Manadhata. <a href="http://teamcore.usc.edu/pubDetails.aspx?id=848" target="http://teamcore.usc.edu/papers/2016/Virtually-Distributed.pdf">Data Exfiltration Detection and Prevention: Virtually Distributed POMDPs for Practically Safer Networks</a>. In <em> Proceedings of the Conference on Decision and Game Theory for Security (GameSec) 2016</em> 
 </li> <br>
-<li><strong>Sara Mc Carthy</strong>, Milind Tambe, Christopher Kiekintveld, Meredith L. Gore, Alex Killion. <a href="http://teamcore.usc.edu/pubDetails.aspx?id=800" target="_blank">Preventing Illegal Logging: Simultaneous Optimization of Resource Teams and Tactics for Security</a>. In <em> Proceedings of the Association for the Advancement of Artificial Intelligence (AAAI) 2016</em> 
+<li><strong>Sara Mc Carthy</strong>, Milind Tambe, Christopher Kiekintveld, Meredith L. Gore, Alex Killion. <a href="https://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/view/12160" target="_blank">Preventing Illegal Logging: Simultaneous Optimization of Resource Teams and Tactics for Security</a>. In <em> Proceedings of the Association for the Advancement of Artificial Intelligence (AAAI) 2016</em> 
 </li> <br>
 <li> <strong>Sara M. McCarthy</strong>, Doina Precup. <a href="http://www.tandfonline.com/doi/abs/10.1080/09540091.2014.885304#.VDti20siguk">Theoretical results on the effect of 'shortcut' actions in MDPs.</a> Connection Science. Vol. 26, Iss. 2, 2014 </li>
 </ul> 
