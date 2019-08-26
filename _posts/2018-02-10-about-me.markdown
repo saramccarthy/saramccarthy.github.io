@@ -18,7 +18,7 @@ A large part of my work is developing solution methods that are usable in the re
 <div style="padding-left:10px;">
 <a href="http://www.usc.edu">University of Southern California</a><br>
 Doctor of Philosophy (Ph.D.), Computer Science <br>
-2014 - present
+2014 - 2018
 </div>
 </div>        
 <div style="font-size:14px;margin-left:10px;height:80px">
